@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Below we're activating the mobile style sheet once it hits a maxwidth of 768px -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" media='screen and (max-width: 768px)' href="css/mobile.css">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Staatliches&display=swap" rel="stylesheet">
+
+  <title>About Page</title>
+</head>
+<body>
+  <!-- belowe we're setting up the mainpage navigation within it a container class that using the img of the logo and the 4 different social media logos that link to the websites -->
+  <nav id="main-nav">
+    <div class="container">
+      <img src="img/logo.png" alt="Newsgrid" class="logo">
+      <div class="social">
+        <!-- Below we always make with a link we're using a tags w/ target=_blank so it opens a new page and i class to give an icon. -->
+        <a href="http://facebook.com" target="_blank"><i class="fab fa-facebook fa-2x"></i></a>
+        <a href="http://twitter.com" target="_blank"><i class="fab fa-twitter fa-2x"></i></a>
+        <a href="http://linkedin.com" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a>
+        <a href="http://instagram.com" target="_blank"><i class="fab fa-instagram fa-2x"></i></a>
+      </div>
+      <!-- below is how we show the current page we're on we do an ul li a class for links then add a class of 'current' and href index.html -->
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a class="current" href="about.html">About</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <section id="about">
+    <div class="container">
+      <div class="page-container">
+        <article class="card">
+          <h1 class="l-heading">About Our Organization</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, suscipit, accusamus cupiditate consectetur quaerat, expedita voluptas iste earum quisquam itaque quod quos? Vero, non. Similique expedita animi porro tempore minus?</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi eos fugit possimus natus? Et earum cum vero culpa iste quam deserunt asperiores itaque omnis voluptas commodi, fugit esse modi nam iusto ipsum sunt, nesciunt facere atque inventore reprehenderit blanditiis dolor vel distinctio? Recusandae iure maiores illo? Vero commodi non deserunt aspernatur eos beatae reiciendis. Corrupti ducimus ratione, assumenda perspiciatis quia quidem possimus debitis suscipit molestiae. Aut suscipit numquam mollitia quae error natus, ipsam, commodi doloremque excepturi omnis voluptatem tempore a laborum eveniet, nesciunt neque at odit repudiandae nostrum animi. Modi, iure eaque! Cum consequuntur eveniet quo ratione laborum neque iste.
+        </article>
+        <aside class="card bg-primary">
+          <h2>Join Our Club</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, fuga!</p>
+          <a href="#" class="btn btn-dark btn-block">Join Now</a>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer id="main-footer" class="py-2">
+    <div class="container footer-container">
+      <div>
+        <img src="img/logo_light.png" alt="NewsGrid">
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit deserunt assumenda enim non? Ratione ipsum voluptates fuga eos earum vitae.</p>
+      </div>
+      <div>
+        <h3>Email Newsletter</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <form>
+          <input type="email" placeholder="Enter Email...">
+          <input type="submit" value="Subscribe" class="btn btn-primary">
+        </form>
+      </div>
+      <div>
+        <h3>Site Links</h3>
+        <ul class="list">
+          <li><a href="#">Help & Support</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2>Join Our Club</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, nesciunt!</p>
+        <a href="#" class="btn btn-secondary">Join Now</a>
+      </div>
+      <div>
+        <p>
+          Copyright &copy; 2019, All Rights Reserved
+        </p>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
